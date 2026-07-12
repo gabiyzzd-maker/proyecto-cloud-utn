@@ -1,0 +1,622 @@
+{
+  "generated_at": "2026-07-08T22:20:55.460672+00:00",
+  "count": 56,
+  "data": [
+    {
+      "id": "81be42e7-5833-4c22-91c0-97b5cad56176",
+      "title": "Modificado: Packard 255 G2",
+      "start": "2026-07-06T01:54:23.543705+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_estatico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "58a17c80-c8d9-40b3-8964-65be1950718f",
+      "title": "Modificado: Aspire E1-510",
+      "start": "2026-07-06T01:54:23.543705+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_estatico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "2ec6a808-5686-481c-aa4b-e18b33bdf17e",
+      "title": "Modificado: ThinkPad T540p",
+      "start": "2026-07-06T01:54:23.544713+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_estatico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "0f61efd9-fc49-4eec-b092-b4c005f4114f",
+      "title": "Modificado: ProBook",
+      "start": "2026-07-06T01:54:23.545715+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_estatico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "a41a2dcf-36c7-434f-a4ea-1da6ca4fb430",
+      "title": "Modificado: ThinkPad X240",
+      "start": "2026-07-06T01:54:23.545715+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_estatico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "ca1f474a-ec4c-4706-815a-30c70fb311fa",
+      "title": "Modificado: Aspire E1-572G",
+      "start": "2026-07-06T01:54:23.546713+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_estatico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "7ad9b7cd-9b08-4e22-933b-c72694626007",
+      "title": "Modificado: Asus VivoBook X441NA-GA190",
+      "start": "2026-07-06T01:54:23.547714+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "1f40687f-cbc2-402a-b6d0-bb4366aeaaf1",
+      "title": "Modificado: Prestigio SmartBook 133S Dark Grey",
+      "start": "2026-07-06T01:54:23.548715+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "5a98996b-e2e4-4e01-bcdd-4f03516f2137",
+      "title": "Modificado: Prestigio SmartBook 133S Gold",
+      "start": "2026-07-06T01:54:23.548715+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "e03dd5fe-155d-4e61-af7f-c24a2defb809",
+      "title": "Modificado: Aspire E1-510",
+      "start": "2026-07-06T01:54:23.550163+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "9b604ca0-95d1-4a21-b391-e613b52dd840",
+      "title": "Modificado: Lenovo V110-15IAP",
+      "start": "2026-07-06T01:54:23.551493+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "58f7d85b-f212-42c4-a7c8-9e3331509add",
+      "title": "Modificado: Lenovo V110-15IAP",
+      "start": "2026-07-06T01:54:23.552503+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "adc9cc26-38db-4b16-8183-4498f1e79ffa",
+      "title": "Modificado: Hewlett Packard 250 G6 Dark Ash Silver",
+      "start": "2026-07-06T01:54:23.552503+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "8fb7de34-0d9f-41d1-9687-a6f2a421c80b",
+      "title": "Modificado: Acer Aspire 3 A315-31 Black",
+      "start": "2026-07-06T01:54:23.553973+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "36fe5bae-007c-469f-97a0-f79bfb30b366",
+      "title": "Modificado: Acer Aspire A315-31-C33J",
+      "start": "2026-07-06T01:54:23.553973+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "d88be64b-e55c-4780-a51c-492c880bc942",
+      "title": "Modificado: Acer Aspire ES1-572 Black",
+      "start": "2026-07-06T01:54:23.554981+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "aaece303-19dc-45f2-b466-b9f3b12b084f",
+      "title": "Modificado: Acer Aspire 3 A315-31 Black",
+      "start": "2026-07-06T01:54:23.556113+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "a188977a-4fbf-4e0d-be2e-8c5c5fcd59a6",
+      "title": "Modificado: Acer Aspire 3 A315-21",
+      "start": "2026-07-06T01:54:23.556113+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "f3af739b-1094-4345-9b3c-ecd9b98df67a",
+      "title": "Modificado: Asus VivoBook Max",
+      "start": "2026-07-06T01:54:23.557121+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "af5c66bd-4f32-4fad-b68d-278c4a0d8970",
+      "title": "Modificado: Asus VivoBook E502NA-GO022T Dark Blue",
+      "start": "2026-07-06T01:54:23.557121+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "8cf1ae69-2ee1-4a64-be41-1fbe2d8b3552",
+      "title": "Modificado: Lenovo ThinkPad E31-80",
+      "start": "2026-07-06T01:54:23.558390+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "b86d69f4-770b-43e6-8b0b-b68395678aee",
+      "title": "Modificado: Acer Aspire 3 A315-31 Black",
+      "start": "2026-07-06T01:54:23.559399+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "c8a9ac9a-da07-4881-acfa-a6d9fb7106b8",
+      "title": "Modificado: Lenovo V110-15ISK",
+      "start": "2026-07-06T01:54:23.559399+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "71ddd814-0096-49e6-b219-b62b06b707e2",
+      "title": "Modificado: Acer Aspire ES1-732 Black",
+      "start": "2026-07-06T01:54:23.560397+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "61a08dec-adea-40d7-ae34-5ada5ee7586f",
+      "title": "Modificado: Asus VivoBook 15 X540NA-GQ026T",
+      "start": "2026-07-06T01:54:23.561398+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "d52c5f0d-3f28-4aec-92ba-f766455a16a0",
+      "title": "Modificado: Packard 255 G2",
+      "start": "2026-07-06T01:54:23.561398+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "dab0b405-f799-4322-a316-d3bc4865c7e7",
+      "title": "Modificado: Asus EeeBook R416NA-FA014T",
+      "start": "2026-07-06T01:54:23.562398+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "b778c3ef-b31e-45b5-8c31-09d91c5903eb",
+      "title": "Modificado: Acer Aspire 3 A315-51",
+      "start": "2026-07-06T01:54:23.563477+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "f40c2876-78d9-412e-a706-a9ec6f1ad5f1",
+      "title": "Modificado: Acer Aspire ES1-572 Black",
+      "start": "2026-07-06T01:54:23.563984+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "8a585201-bbd3-4c86-950c-794ffc11619e",
+      "title": "Modificado: Acer Extensa 15 (2540) Black",
+      "start": "2026-07-06T01:54:23.563984+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "a080cfc4-c273-4892-925a-afb163d1e9c3",
+      "title": "Modificado: Acer Aspire ES1-572 Black",
+      "start": "2026-07-06T01:54:23.564994+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "f0d9b3a6-b9e1-47e3-9a84-6325cc49e47f",
+      "title": "Modificado: Lenovo V110-15ISK",
+      "start": "2026-07-06T01:54:23.564994+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "f3edd09e-55e2-4361-b98f-c73043d9eb5f",
+      "title": "Modificado: Acer Aspire A315-51-33TG",
+      "start": "2026-07-06T01:54:23.566323+00:00",
+      "color": "#0d6efd",
+      "extendedProps": {
+        "accion": "modificado",
+        "tipo": "scraping_dinamico",
+        "detalle": null
+      }
+    },
+    {
+      "id": "564ee597-df29-4b34-83f0-f16ad8438d55",
+      "title": "Nuevo: Web_Scraper_Media_Kit.zip",
+      "start": "2026-07-06T01:54:24.923705+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "1a368337e5031f1641064be7af237da7801a0435ef3fbcdef0fcd78d368a8180"
+      }
+    },
+    {
+      "id": "1d9dd16b-65eb-4e8c-af18-effc9df921a9",
+      "title": "Nuevo: logo_white.svg",
+      "start": "2026-07-06T01:54:26.063650+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "e15cbdd2d65313cf6cf823e9814c7e0df2c512fcd5e22001eaa7df6aaa84d745"
+      }
+    },
+    {
+      "id": "abbda5b6-1e65-45b2-a14d-a04d5ee1cd39",
+      "title": "Nuevo: cart2.png",
+      "start": "2026-07-06T01:54:26.805906+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "a65437aad3e23de3aeb1ef94f31184670f59e2d31dc4df42bc0f8169187ce814"
+      }
+    },
+    {
+      "id": "9fedb837-bd8b-4b50-972a-aa85b63f03ed",
+      "title": "Nuevo: 2cdad67c44b002e7ead0cc35693c0e8b.jpg",
+      "start": "2026-07-08T22:20:44.409997+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "4752d0ef411fb1c4aad31d69425d075c219345c386fd94f43ddfbf4495ea0437"
+      }
+    },
+    {
+      "id": "a6f68bd1-a012-49ec-8c93-27c1dfa62aae",
+      "title": "Nuevo: 260c6ae16bce31c8f8c95daddd9f4a1c.jpg",
+      "start": "2026-07-08T22:20:44.866145+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "5ec92a83e1caf9a61e13852a456788dd8af7d0e1ddc7db31f81d9f9e0429919c"
+      }
+    },
+    {
+      "id": "3b31416b-4e74-4a17-8ca1-3fbf11744c52",
+      "title": "Nuevo: 3eef99c9d9adef34639f510662022830.jpg",
+      "start": "2026-07-08T22:20:45.516503+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "cede8e3b99fc08276404b93048f70baf7ad20d304c450bd05a405342775118ca"
+      }
+    },
+    {
+      "id": "3b4a7e1f-8cc8-4440-be17-124ced8cc1a8",
+      "title": "Nuevo: 3251cf3a3412f53f339e42cac2134093.jpg",
+      "start": "2026-07-08T22:20:46.212693+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "77f1899baaef4cede480481a866107130067cec4daf0ebc6b9d9f7a3e5ffb42c"
+      }
+    },
+    {
+      "id": "b0a6cb03-f374-4cf1-b0c8-798b1da3a31e",
+      "title": "Nuevo: bea5697f2534a2f86a3ef27b5a8c12a6.jpg",
+      "start": "2026-07-08T22:20:46.964543+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "b77cc36d881b87a70defb899dbca2071a8a59699230d7bf5fd487f75728227c7"
+      }
+    },
+    {
+      "id": "7791b57b-bc05-4618-860f-ff43c9a603f7",
+      "title": "Nuevo: 68339b4c9bc034267e1da611ab3b34f8.jpg",
+      "start": "2026-07-08T22:20:47.556909+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "5f2fa9e68b7ac9a63f16282ef0014da45e2385b1cc2511e0a03153a50e405dd7"
+      }
+    },
+    {
+      "id": "c970f3f2-4a3f-494f-a3d0-3c22473a6677",
+      "title": "Nuevo: 92274a95b7c251fea59a2b8a78275ab4.jpg",
+      "start": "2026-07-08T22:20:48.090824+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "7ae4465b568e7e9d30c61ba5513d70cde3ed146c55173c55605abf1d9c1ea3e1"
+      }
+    },
+    {
+      "id": "7b2dee82-21f7-4e16-ab68-a85688e1027f",
+      "title": "Nuevo: 3d54940e57e662c4dd1f3ff00c78cc64.jpg",
+      "start": "2026-07-08T22:20:48.657551+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "424c4ffe127e680de493a5cbe11af87ca930097b7137bb4b598aed93ea189fef"
+      }
+    },
+    {
+      "id": "63805ac5-7ba6-4b81-bef6-45ee5019bce2",
+      "title": "Nuevo: 66883b91f6804b2323c8369331cb7dd1.jpg",
+      "start": "2026-07-08T22:20:49.545957+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "b017e202047a94f0c273fe0bebe17481d2647719e1cdefa324926442b457e5c6"
+      }
+    },
+    {
+      "id": "5b524d7b-3d90-493d-b701-e8b53707d15a",
+      "title": "Nuevo: 5846057e28022268153beff6d352b06c.jpg",
+      "start": "2026-07-08T22:20:50.025412+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "af19453b0e172a1b23e8c6f727d4ee93fa35678f0f171559c1327e22a36b4606"
+      }
+    },
+    {
+      "id": "faeae796-4e0c-445d-92f1-7fc31df97308",
+      "title": "Nuevo: bef44da28c98f905a3ebec0b87be8530.jpg",
+      "start": "2026-07-08T22:20:50.597655+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "aa3c8325992996be5a8fca3d6e2acf13579d625fbf3c203eb4fc378137616d08"
+      }
+    },
+    {
+      "id": "c03a5204-c9ca-4ead-b41b-38f08530fd94",
+      "title": "Nuevo: 1048f63d3b5061cd2f424d20b3f9b666.jpg",
+      "start": "2026-07-08T22:20:51.115286+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "4b30901e06e62fe8430f39fb799e3f4050c53739eba20d9d592b160f8c025b9d"
+      }
+    },
+    {
+      "id": "2a91351e-fa44-4044-963b-bded27c4ae69",
+      "title": "Nuevo: 5b88c52633f53cacf162c15f4f823153.jpg",
+      "start": "2026-07-08T22:20:51.614561+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "686407e1a51209a685ae8ec5bee02d1aaead1be432a638d809f0cc4ea7c84509"
+      }
+    },
+    {
+      "id": "8cf03549-b431-4e1c-a688-18f73d819c39",
+      "title": "Nuevo: 94b1b8b244bce9677c2f29ccc890d4d2.jpg",
+      "start": "2026-07-08T22:20:52.202894+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "1df393e472bc68e8ece1f72124106fe967dfe0cf2cb2b5ef4b5ceee19b71f399"
+      }
+    },
+    {
+      "id": "7534ea7c-fbb1-4057-a793-2b6e42d23ed4",
+      "title": "Nuevo: 81c4a973364e17d01f217e1188253d5e.jpg",
+      "start": "2026-07-08T22:20:52.805248+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "c9112f185d4c608f5811d4ff9bb69c8ba5ce274863e4bced8fda1e3eaa453698"
+      }
+    },
+    {
+      "id": "5f8245bd-832e-4ff2-a308-b19e5cd2ed35",
+      "title": "Nuevo: 54607fe8945897cdcced0044103b10b6.jpg",
+      "start": "2026-07-08T22:20:53.346499+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "8f4ce354f0d61cfbc5663033c8a9ea2c91a2aa711de08faff984a8b2f7c34d9e"
+      }
+    },
+    {
+      "id": "bcaa8d3c-8bcf-4537-91b4-e9ec9c8cadda",
+      "title": "Nuevo: 553310a7162dfbc2c6d19a84da0df9e1.jpg",
+      "start": "2026-07-08T22:20:53.787877+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "aad2089190d3580ee608b733392bc577376419709555f70db704947ae43518be"
+      }
+    },
+    {
+      "id": "2e9c6173-33d3-4c3f-a281-3fb036245b8f",
+      "title": "Nuevo: 09a3aef48557576e1a85ba7efea8ecb7.jpg",
+      "start": "2026-07-08T22:20:54.346682+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "74cc43935d0f588c88dd24c15d5c95c55425d6a18cab87c82cd0c57cf5d6253e"
+      }
+    },
+    {
+      "id": "830c6654-bde6-4715-99ac-635a112c1622",
+      "title": "Nuevo: 0bbcd0a6f4bcd81ccb1049a52736406e.jpg",
+      "start": "2026-07-08T22:20:54.900456+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "fc388c75954f7dc74c7ed01b4ed4bf4dea50ca4f9aeae38ba413b484bb6a5e6f"
+      }
+    },
+    {
+      "id": "893db89a-fa1d-4933-9b8b-46d0473aef17",
+      "title": "Nuevo: 27a53d0bb95bdd88288eaf66c9230d7e.jpg",
+      "start": "2026-07-08T22:20:55.458834+00:00",
+      "color": "#198754",
+      "extendedProps": {
+        "accion": "nuevo",
+        "tipo": "archivo",
+        "detalle": "eefd1eba26ecfcc3642d34986eed36e916c5a0afa3f179e6bec9f273bfebaa1a"
+      }
+    }
+  ]
+}
