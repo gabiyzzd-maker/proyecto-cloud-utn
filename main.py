@@ -27,7 +27,7 @@ DOWNLOADS_DIR = BASE_DIR / "downloads"
 LOGS_DIR = BASE_DIR / "logs"
 
 URL_ESTATICA_DEFAULT = (
-    "https://webscraper.io/test-sites/e-commerce/static/computers/laptops"
+   "https://books.toscrape.com"
 )
 URL_DINAMICA_DEFAULT = (
     "https://webscraper.io/test-sites/e-commerce/scroll/computers/laptops"
@@ -104,7 +104,7 @@ def obtener_conexion_db():
         port=os.getenv("DB_PORT", "5432"),
         database=os.getenv("DB_NAME", "cloud_scraping_db"),
         user=os.getenv("DB_USER", "postgres"),
-        password=os.getenv("DB_PASSWORD"),
+        password=os.getenv("DB_PASSWORD","admin"),
         connect_timeout=5,
         application_name="cloud_scraping_utn",
     )

@@ -54,7 +54,7 @@ AZURE_OPENAI_VERSION=2024-12-01-preview
 AZURE_OPENAI_DEPLOYMENT=gpt-4o-mini
 ENABLE_LLM_SELECTOR=false
 
-STATIC_SCRAPER_URL=https://webscraper.io/test-sites/e-commerce/static/computers/laptops
+STATIC_SCRAPER_URL=https://books.toscrape.com
 DYNAMIC_SCRAPER_URL=https://webscraper.io/test-sites/e-commerce/scroll/computers/laptops
 SCHEDULER_MINUTES=30
 FLASK_HOST=127.0.0.1

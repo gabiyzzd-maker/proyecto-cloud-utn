@@ -427,7 +427,7 @@ def ejecutar_scraping_estatico(
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     URL_PRUEBA = (
-        "https://webscraper.io/test-sites/e-commerce/static/computers/laptops"
+        "https://books.toscrape.com"
     )
     productos, archivos = ejecutar_scraping_estatico(
         URL_PRUEBA, incluir_archivos=True
