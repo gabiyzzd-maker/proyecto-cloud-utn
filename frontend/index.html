@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dashboard de scraping y monitoreo de archivos UTN">
+    <title>Cloud Scraping UTN</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        rel="stylesheet"
+    >
+    <link
+        href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg border-bottom">
+        <div class="container-fluid px-3 px-lg-4">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+                <span class="brand-mark">UTN</span>
+                <span>Cloud Scraping</span>
+            </a>
+            <div class="d-flex align-items-center gap-2 status-wrap">
+                <span class="status-dot" id="api-status-dot"></span>
+                <span id="api-status">Conectando</span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid px-3 px-lg-4 py-4">
+        <header class="page-header mb-4">
+            <div>
+                <p class="section-label mb-1">Panel operativo</p>
+                <h1 class="mb-1">Monitoreo de extracciones</h1>
+                <p class="text-secondary mb-0" id="ultima-actualizacion">
+                    Esperando la primera actualización
+                </p>
+            </div>
+            <button class="btn btn-dark" id="refresh-button" type="button">
+                <i class="bi bi-arrow-clockwise" aria-hidden="true"></i>
+                Actualizar
+            </button>
+        </header>
+
+        <section class="metrics-grid mb-4" aria-label="Resumen">
+            <article class="metric metric-records">
+                <div class="metric-icon"><i class="bi bi-database"></i></div>
+                <div>
+                    <span class="metric-label">Registros</span>
+                    <strong id="total-registros">0</strong>
+                </div>
+            </article>
+            <article class="metric metric-files">
+                <div class="metric-icon"><i class="bi bi-file-earmark-check"></i></div>
+                <div>
+                    <span class="metric-label">Archivos con hash</span>
+                    <strong id="total-archivos">0</strong>
+                </div>
+            </article>
+            <article class="metric metric-events">
+                <div class="metric-icon"><i class="bi bi-activity"></i></div>
+                <div>
+                    <span class="metric-label">Cambios detectados</span>
+                    <strong id="total-eventos">0</strong>
+                </div>
+            </article>
+            <article class="metric metric-sources">
+                <div class="metric-icon"><i class="bi bi-globe2"></i></div>
+                <div>
+                    <span class="metric-label">Fuentes activas</span>
+                    <strong id="total-fuentes">0</strong>
+                </div>
+            </article>
+        </section>
+
+        <ul class="nav nav-tabs mb-3" id="dashboard-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button
+                    class="nav-link active"
+                    id="results-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#results-panel"
+                    type="button"
+                    role="tab"
+                >
+                    Resultados
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button
+                    class="nav-link"
+                    id="files-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#files-panel"
+                    type="button"
+                    role="tab"
+                >
+                    Archivos
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button
+                    class="nav-link"
+                    id="calendar-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#calendar-panel"
+                    type="button"
+                    role="tab"
+                >
+                    Calendario
+                </button>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <section
+                class="tab-pane fade show active"
+                id="results-panel"
+                role="tabpanel"
+                aria-labelledby="results-tab"
+            >
+                <div class="toolbar">
+                    <div>
+                        <h2>Datos estructurados</h2>
+                        <p>Productos vigentes de las fuentes estática y dinámica.</p>
+                    </div>
+                    <label class="search-box">
+                        <i class="bi bi-search" aria-hidden="true"></i>
+                        <span class="visually-hidden">Buscar resultados</span>
+                        <input
+                            id="results-search"
+                            type="search"
+                            placeholder="Buscar por título"
+                            autocomplete="off"
+                        >
+                    </label>
+                </div>
+                <div class="table-responsive data-surface">
+                    <table class="table align-middle mb-0">
+                        <thead>
+                            <tr>
+                                <th>Producto</th>
+                                <th>Precio</th>
+                                <th>Calificación</th>
+                                <th>Origen</th>
+                                <th>Actualizado</th>
+                                <th><span class="visually-hidden">Abrir</span></th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabla-resultados"></tbody>
+                    </table>
+                    <div class="empty-state d-none" id="results-empty">
+                        <i class="bi bi-inbox"></i>
+                        <span>No hay registros para mostrar.</span>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="tab-pane fade"
+                id="files-panel"
+                role="tabpanel"
+                aria-labelledby="files-tab"
+            >
+                <div class="toolbar">
+                    <div>
+                        <h2>Integridad de archivos</h2>
+                        <p>Descargas verificadas mediante SHA-256.</p>
+                    </div>
+                </div>
+                <div class="table-responsive data-surface">
+                    <table class="table align-middle mb-0">
+                        <thead>
+                            <tr>
+                                <th>Archivo</th>
+                                <th>Tipo</th>
+                                <th>Tamaño</th>
+                                <th>SHA-256</th>
+                                <th>Verificado</th>
+                                <th><span class="visually-hidden">Ver</span></th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabla-archivos"></tbody>
+                    </table>
+                    <div class="empty-state d-none" id="files-empty">
+                        <i class="bi bi-file-earmark-x"></i>
+                        <span>No hay archivos monitoreados.</span>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="tab-pane fade"
+                id="calendar-panel"
+                role="tabpanel"
+                aria-labelledby="calendar-tab"
+            >
+                <div class="toolbar">
+                    <div>
+                        <h2>Historial de cambios</h2>
+                        <p>Altas, modificaciones, restauraciones y eliminaciones.</p>
+                    </div>
+                </div>
+                <div id="calendar" class="calendar-surface"></div>
+            </section>
+        </div>
+
+        <div class="alert alert-danger d-none mt-3" id="global-error" role="alert"></div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+    <script src="results.js"></script>
+    <script src="files.js"></script>
+    <script src="calendar.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
